@@ -33,6 +33,7 @@ h1{
 
 main h2{
     margin: 20px;
+    font-family: 'Secular One', serif;
     font-size: clamp(18px,3vw,32px);
 }
 
