@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+main *, main ::before, main ::after {
+    margin: 0;
+    padding: 0;
+}
+.illustration{
+    width: 100vw;
+    height: 600px;
+    background-image: url(../images/ANDROMEDA_GALAXY.jpg);
+    background-size: cover;
+    background-position: right 20% bottom 40%;
+}
+
+@media (max-width: 906px) {
+    .illustration{
+        height: 50vw;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.3085434857536765) 54%, rgba(255,255,255,1) 100%);
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+    font-size: clamp(38px,8vw,84px);
+    font-family: 'Secular One', sans-serif;
+}
+
+main h2{
+    margin: 20px;
+    font-size: clamp(18px,3vw,32px);
+}
+
+main h3{
+    margin: 10px 20px;
+}
+
+main p{
+    margin: 0 40px;
+    font-size: large;
+}
+
+main b{
+    font-weight: bolder;
+}
+
+a:link{
+    color: #00679b;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1a53ff;
+    text-decoration: solid;
+}
+img#scientifiques{
+    display: block;
+    margin: 20px auto;
+    max-width: 90vw;
+}
+
+footer{
+    margin-top: 25px;
+}
+
+.image-container{
+    width: 900px;
+    margin: 20px auto;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.legend{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.753);
+}
