@@ -21,8 +21,12 @@ body{
     margin: 0;
     padding: 0;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.3085434857536765) 54%, rgba(255,255,255,1) 100%);
-}
+background: rgb(236,234,234);
+background: -moz-linear-gradient(90deg, rgba(236,234,234,1) 14%, rgba(255,255,255,1) 41%, rgba(240,240,240,1) 73%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(236,234,234,1) 14%, rgba(255,255,255,1) 41%, rgba(240,240,240,1) 73%, rgba(255,255,255,1) 100%);
+background: linear-gradient(90deg, rgba(236,234,234,1) 14%, rgba(255,255,255,1) 41%, rgba(240,240,240,1) 73%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eceaea",endColorstr="#ffffff",GradientType=1);
+    }
 
 h1{
     margin: 20px;
